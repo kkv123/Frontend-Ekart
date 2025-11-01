@@ -1,6 +1,6 @@
 import axios from 'axios';
 // ...existing code...
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'https://ekart-book-store.onrender.com';
 
 // helper to set/remove default header
 export const setAuthToken = (token?: string) => {
